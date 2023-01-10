@@ -4,8 +4,10 @@ layout: default
 description: Supports grade inputs and calculates average. 
 permalink: /frontend/grades
 image: /images/grade_calc.png
-categories: [pbl]
+categories: [2.C]
 tags: [javascript, html, input, onblur]
+week: 10
+type: pbl
 ---
 
 <!-- For hacks take inspiration form here: https://www.rapidtables.com/calc/grade/grade-calculator.html -->

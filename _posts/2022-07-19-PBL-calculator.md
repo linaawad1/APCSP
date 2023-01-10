@@ -5,7 +5,7 @@ layout: default
 description: A common way to become familiar with a language is to build a calculator.  This calculator shows off button with actions.
 permalink: /frontend/calculator
 image: /images/calculator.png
-categories: [pbl]
+categories: [2.C, C7.0]
 tags: [javascript, css. dom, getElementID]
 ---
 
@@ -45,7 +45,7 @@ tags: [javascript, css. dom, getElementID]
     width: auto;
     height: auto;
     border-radius: 10px;
-    background-color: #FFE5AE;
+    background-color: #665B45;
     border: 3px solid black;
     font-size: 1.5em;
 
@@ -63,7 +63,7 @@ tags: [javascript, css. dom, getElementID]
 
 /* darkens the background color on hover to create a selecting effect */
 .calculator-button:hover {
-    background-color: #ECD5A4;
+    background-color: #373737;
 }
 
 /* styling for the top bar which shows the results of the calculator */

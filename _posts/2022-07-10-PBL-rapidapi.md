@@ -1,14 +1,18 @@
 ---
-title: Fetch of Covid19 data with RapidAPI
+title: Fetch of Python data using RapidAPI
 layout: default
-description: An introductory example of talking to Backend Java application serving 3rd Party API.  Fetching data and formatting results is a way to visuals information, in this case Covid19 statistics across the Globe. 
+description: An introductory example of talking to Backend Python application serving 3rd Party API.  Fetching data and formatting results is a way to visuals information, in this case Covid19 statistics across the Globe. 
 permalink: /data/covid
 image: /images/rapidapi.png
-categories: [pbl]
+categories: [C7.0]
 tags: [javascript, fetch, dom, getElementID, appendChild]
+week: 8
+type: pbl
 ---
 
 {% include nav_data.html %}
+
+[Review Frontend Code](https://raw.githubusercontent.com/nighthawkcoders/APCSP/master/_posts/2022-07-10-PBL-rapidapi.md), [Review Backend Code](https://github.com/nighthawkcoders/flask_portfolio/blob/main/api/covid.py)
 
 <!-- HTML table fragment for page -->
 <table>
@@ -48,9 +52,8 @@ tags: [javascript, fetch, dom, getElementID, appendChild]
   const resultContainer = document.getElementById("result");
 
   // prepare fetch options
-  const url = "https://spring.nighthawkcodingsociety.com/api/covid/daily";
-
-  const options = {
+  const url = "https://flask.nighthawkcodingsociety.com/api/covid/";
+  const headers = {
     method: 'GET', // *GET, POST, PUT, DELETE, etc.
     mode: 'cors', // no-cors, *cors, same-origin
     cache: 'default', // *default, no-cache, reload, force-cache, only-if-cached
@@ -62,7 +65,7 @@ tags: [javascript, fetch, dom, getElementID, appendChild]
   };
 
   // fetch the API
-  fetch(url, options)
+  fetch(url, headers)
     // response is a RESTful "promise" on any successful fetch
     .then(response => {
       // check for response errors
@@ -105,7 +108,7 @@ tags: [javascript, fetch, dom, getElementID, appendChild]
             deaths.innerHTML = row.deaths; 
             active.innerHTML = row.active_cases; 
 
-            // this build td's into tr
+            // this builds td's into tr
             tr.appendChild(name);
             tr.appendChild(cases);
             tr.appendChild(deaths);
