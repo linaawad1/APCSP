@@ -2,8 +2,8 @@
 toc: true
 comments: true
 layout: post
-title:  Week of 01-16, FE and BE Control Tech Talks
-description: Student enable Control code to connect Frontend and Backend development for their Create Performance Task project
+title:  Week of 01-16, API and Database Intro
+description: Student enable API/Control code to connect Database/Model for their Create Performance Task project
 permalink: /points/19
 image: /images/points.jpeg
 categories: []
@@ -12,14 +12,16 @@ week: 19
 ---
 
 ## Plans Week 19
-> Teams work on Ideation, research, and 1st code for Create Performance Task project
-- Monday: Silent Review
-- Tuesday: Backend Tech Talk.  Model, Python, Backend, OOP.  Starting an object Model following [Hacks](https://nighthawkcoders.github.io/APCSP//2023/01/03/PBL-model.html#Hacks)
-- Wednesday: Perform Model, Python, Backend, OOP hacks.  Start your Model ipynb and adapt provided model to contain attributes that are specific to your project.
-- Thursday: Frontend Tech Talk.  View, JavaScript, Frontend.  
-- Friday: Coding hour 1. Ideate/planning backend project for Create Performance Task.  Establish 4 or 5 features to go with frontend features.
+> Teams work using Ideation and using last week and this weeks Tech Talks and Hacks, to form code to enable API/Control to connect to Database/Model.  This week CPT designs should become stronger as student start CPT coding.
+
+- Monday: Silent Review: API and Database
+- Tuesday: Backend Tech Talk. Database/Model.
+- Wednesday: Perform Database/Model hacks/videos according to your project
+- Thursday: Backend Tech Talk.  API/Control.  
+- Friday: 1st Coding hour.  Prepare for Project Approval Presentation or Tech Talk Hacks/Videos.
 
 ## Look ahead
-> Teams perform reviews and work on Python libraries and technicals for College Board.
-- Monday review Hacks
+> Teams prepare for CPT presentation.
+
+- Monday live review which includes Videos of API and Database hacks, plus CB MCQ testing
 
